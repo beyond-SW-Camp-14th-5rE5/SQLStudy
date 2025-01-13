@@ -1,0 +1,5 @@
+SELECT
+       COUNT(*)
+  from USER_INFO
+ where JOINED LIKE "2021-%-%"
+   and AGE BETWEEN 20 AND 29;
